@@ -5,6 +5,7 @@ BeaconHunter is a security analytics prototype designed to identify and prioriti
 The project combines feature engineering grounded in real-world attacker tradecraft with both supervised and unsupervised machine learning models. Rather than producing binary verdicts, BeaconHunter assigns continuous risk scores that support investigation prioritization in a SOC environment.
 
 ## Project Structure
+```bash
 .
 ├── data/                  # Training and live evaluation datasets
 ├── src/                   # Core detection and scoring logic
@@ -19,6 +20,7 @@ The project combines feature engineering grounded in real-world attacker tradecr
 ├── ANALYST_REPORT.md
 ├── INTEGRITY.md
 ├── NOTES.md
+```
 
 ## Setup
 ### Local Environment
